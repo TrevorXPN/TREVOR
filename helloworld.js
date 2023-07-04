@@ -32,7 +32,7 @@ this is a mulitline comment
 // variable declaration
 let age;
 // variable initialisation
-age = 23
+ age = 24
 // = this is called an assignment opperator
 let studentName = "Monica"
 console.log(studentName)
