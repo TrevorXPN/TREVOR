@@ -90,36 +90,36 @@ console.log(person)
 console.log(delete person["gender"])
 console.log(person)
 
-//object immutability
-// YOU CAN NOT CHANGE AN ASSIGNMENT TO A CONSTANT VARIABLE
-// CONST DECLARATION PROHIBITS ONE THING THE CONSTANT POINTS TO,BUT IT DOESNT PROHIBIT CHANGING THE CONTENT OF THAT THING
-// thus we can change the property in a constant object but we cant change which the contants points to
-const myObject = {firstName: "Trinity;",height: "4.3ft",carName: "GIPU"};
-console.log(myObject)
-myObject.firstName = "Angel";
-myObject.height = "4.5ft";
-console.log(myObject)
-//myObject = {lastName: "sugar",fruit: "kiwi"}
-myObject.beatifulName = "Dante";
-console.log(myObject)
-myObject1 = {lastName: "sugar",fruit: "kiwi"}
-console.log(myObject1)
+// //object immutability
+// // YOU CAN NOT CHANGE AN ASSIGNMENT TO A CONSTANT VARIABLE
+// // CONST DECLARATION PROHIBITS ONE THING THE CONSTANT POINTS TO,BUT IT DOESNT PROHIBIT CHANGING THE CONTENT OF THAT THING
+// // thus we can change the property in a constant object but we cant change which the contants points to
+// const myObject = {firstName: "Trinity;",height: "4.3ft",carName: "GIPU"};
+// console.log(myObject)
+// myObject.firstName = "Angel";
+// myObject.height = "4.5ft";
+// console.log(myObject)
+// //myObject = {lastName: "sugar",fruit: "kiwi"}
+// myObject.beatifulName = "Dante";
+// console.log(myObject)
+// myObject1 = {lastName: "sugar",fruit: "kiwi"}
+// console.log(myObject1)
 
-// object freeze
-// the object.freeza method is ment to freeza an object
-// this doesnt allow new properties to be added to the object and prevents removing or altering the existing properties
-//Object. freeze preserves the enumerability,configurability,and wrtability and prototype of object
-const myObject2 = Object.freeze({dogName:"Freddie",age:12,city:"Kampala"})
-console.log(myObject2)
+// // object freeze
+// // the object.freeza method is ment to freeza an object
+// // this doesnt allow new properties to be added to the object and prevents removing or altering the existing properties
+// //Object. freeze preserves the enumerability,configurability,and wrtability and prototype of object
+// const myObject2 = Object.freeze({dogName:"Freddie",age:12,city:"Kampala"})
+// console.log(myObject2)
 
-//EXERCISE
-// 1.Create 2 string variables
-// 2.Create 2 number variables
-// 3.Use concatenation
-// 4.Use Escape characters
-// 5.Create 3 objects with 2properties
-//  *const
-//  *const.frozen
-//   *object
-// 5b.add 2 properties to each objct
-// 5c. delete one property from each
+// //EXERCISE
+// // 1.Create 2 string variables
+// // 2.Create 2 number variables
+// // 3.Use concatenation
+// // 4.Use Escape characters
+// // 5.Create 3 objects with 2properties
+// //  *const
+// //  *const.frozen
+// //   *object
+// // 5b.add 2 properties to each objct
+// // 5c. delete one property from each

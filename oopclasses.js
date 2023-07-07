@@ -1,7 +1,7 @@
 //A class is a blueprint of an object 
 //A CLASS WILL ALWAYS HAVE ITS NAME IN SINGULAR
 
-//THIS keyword refers to the object of the class
+// "THIS" keyword refers to the object of the class
 
 //Syntax of a class
 class ClassName{
